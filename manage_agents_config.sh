@@ -145,9 +145,10 @@ change_wazuh_config() {
     echo "2. Alterar nome do agente"
     echo "3. Regenerar certificados TLS"
     echo "4. Voltar ao menu principal"
-    read -p "Escolha (1-4): " WAŻUH_CHOICE
+
+    read -p "Escolha (1-4): " WAZUH_CHOICE
     
-    case $WAŻUH_CHOICE in
+    case $WAZUH_CHOICE in
         1)
             echo
             read -p "Novo IP do servidor Wazuh: " NEW_WAZUH_MANAGER
