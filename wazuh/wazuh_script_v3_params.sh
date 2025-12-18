@@ -7,6 +7,8 @@
 # =========================================
 
 
+
+
 set -e
 
 echo "=== Instalação do Wazuh Agent com TLS ==="
