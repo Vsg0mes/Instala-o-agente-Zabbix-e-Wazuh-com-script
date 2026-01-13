@@ -328,7 +328,7 @@ fi
 # COLETA DO CERTIFICADO (MODELO ZABBIX)
 # =========================================
 echo
-echo "=== Certificado do Agente ==="
+echo "=== Certificado do Agente (sslagent.cert) ==="
 echo "Cole o certificado COMPLETO"
 echo "Finalize pressionando ENTER duas vezes"
 echo "-----END CERTIFICATE-----"
@@ -353,7 +353,7 @@ echo "✓ Certificado salvo em $CERT_FILE"
 # COLETA DA CHAVE PRIVADA (MODELO ZABBIX)
 # =========================================
 echo
-echo "=== Chave Privada do Agente ==="
+echo "=== Chave Privada do Agente (sslagent.key) ==="
 echo "Cole a chave COMPLETA"
 echo "Finalize pressionando ENTER duas vezes"
 echo "-----END PRIVATE KEY-----"
