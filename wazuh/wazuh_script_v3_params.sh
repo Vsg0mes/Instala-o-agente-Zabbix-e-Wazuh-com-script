@@ -2,7 +2,7 @@
 
 # =========================================
 # Instalador Wazuh Agent com TLS - Versão 3.0 (ACEITA PARÂMETROS)
-# Modelo de leitura de certificados IGUAL ao Zabbix
+# Modelo de leitura de certificados
 # Verificação de instalação existente + Remoção automática do client.keys
 # ======================================
 
