@@ -258,6 +258,8 @@ if $WAZUH_SUCCESS && $ZABBIX_SUCCESS; then
     echo "   - Wazuh: tail -f /var/ossec/logs/ossec.log"
     echo "   - Zabbix: tail -f /var/log/zabbix/zabbix_agent2.log"
     echo
+    echo "Issuer:  CN=CARootCA,OU=CA,O=CAZabbix,ST=SP,C=BR"
+    echo "Subject: CN=$HOSTNAME,OU=Agent,O=CAZabbix,ST=SP,C=BR"
     echo "3. Status dos serviços:"
     echo "   - Wazuh: systemctl status wazuh-agent"
     echo "   - Zabbix: systemctl status zabbix-agent2"
