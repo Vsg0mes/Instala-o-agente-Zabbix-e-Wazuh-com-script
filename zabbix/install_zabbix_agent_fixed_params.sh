@@ -219,12 +219,6 @@ if [[ "$USE_TLS" == "1" ]]; then
     # ================================
     # COLETAR CONTEÚDO DOS CERTIFICADOS
     # ================================
-    echo
-    echo "=== Configuração dos Certificados TLS ==="
-    echo "Agora você irá fornecer o conteúdo dos certificados."
-    echo "Para cada certificado, cole o conteúdo completo (incluindo -----BEGIN e -----END)"
-    echo "Pressione ENTER quando estiver pronto para começar..."
-    read -p ""
     
     # Certificado CA
     echo
